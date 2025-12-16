@@ -1,0 +1,360 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    position: relative;
+    background:url('../img/Header_bg.png');
+    width: 1440px;
+    min-width: 1440px;
+    max-width: 1440px;
+    min-height: 100px;
+    max-height: 100px;
+    z-index: 100;
+}
+.Switch {
+    position: absolute;
+    top: 45px;
+    right: 86px;
+}
+.logo {
+    margin-top: 34px;
+    margin-left: 74px;
+    margin-right: 118px;
+}
+.header a {
+    margin-left: 50px;
+}
+.n2 {
+    position: absolute;
+    top: 48px;
+}
+.n22 {
+    position: absolute;
+    top: 48px;
+    margin-left: 60px;
+}
+.section_welcome {
+    position: relative;
+    background-color: #0F2D52 !important;
+    background:url('../img/background.png');
+    width: 1440px;
+    min-width: 1440px;
+    max-width: 1440px;
+    min-height: 600px;
+    max-height: 600px;
+}
+.side_deco-L {
+    position: absolute;
+    top: -53px;
+}
+.side_deco-R {
+    position: absolute;
+    top:-53px;
+    right: 0px;
+}
+.welcome_deco {
+    position: absolute;
+    top: 220px;
+    text-align: center;
+    left: 172px;
+}
+.section_separator {
+    background: url('../img/Separator_deco_m.png');
+    height: 298px;
+    width: 1440px;
+    z-index: 10;
+}
+.sp-1 {
+    text-align: center;
+}
+.sp-1 ul {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.sp-1 a {
+    text-decoration: none;
+    color: #0A0A0A;
+    font-size: 47px;
+}
+.sp-1 h1 {
+    margin-top: 1px;
+    font-size: 40px;
+}
+.section_content {
+    background: url('../img/Background-1.png');
+    width: 1440px;
+    height: 1038px;
+    margin-top: -40px;
+}
+
+.sp-1b ul {
+    margin-top: 60px;
+}
+.sp-4 {
+    text-align: center;
+}
+.sp-4 p{
+    margin-top: 60px;
+    color: #0A0A0A;
+    font-size: 30px;
+}
+.sp-4 h1 {
+    margin-top: 1px;
+    color: #0A0A0A;
+    font-size: 40px;
+}
+.sc-si {
+    position: relative;
+    text-align: center;
+}
+.paper-sinfo {
+    position: absolute;
+    background: url('../img/text-paper.png') no-repeat;
+    width: 922px;
+    height: 592px;
+    top: 215px; 
+    left: 270px;  
+}
+.paper-sinfo h1 {
+    margin-top: 26px;
+    font-size: 35px;
+    color: #0A0A0A;
+}
+.text-si {
+    margin-left: 96px;
+    margin-right: 96px;
+    font-size: 32px;
+    line-height: 45px;
+    color: #0A0A0A;
+}
+.sc-p{
+    font-size: 50px;
+    color: #F5F3E5;
+    text-align: center;
+}
+.sc-f{
+    font-size: 50px;
+    color: #F5F3E5;
+    text-align: center;
+}
+span{
+    color:#0A0A0A;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer {
+    background: url('../img/Background-footer.png');
+    height: 301px;
+    width: 1440px;
+    position: relative;
+}
+.logo_f {
+    margin-top: 135px;
+    margin-left: 81px;
+}
+.footer ul {
+    list-style-type: none;
+    margin-top:-150px ;
+}
+.footer li {
+    margin-left: 1220px;
+    margin-top: 30px
+}
+.form-bg {
+    display: flex;
+    flex-direction: column;
+    background: url('../img/form-paper.png');
+    height: 762px;
+    width: 598px;
+    margin-top: 125px;
+    margin-left: 201px;
+}
+.form-bg h1 {
+    font-size: 50px;
+    color: #0A0A0A;
+    text-align: center;
+}
+.form-bg textarea {
+    margin-left: 30px;
+    margin-right: 30px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: transparent;
+    font-size: 30px;
+    color: #0A0A0A;
+    resize: none;
+    height: 200px;
+}
+.form-bg input {
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 50px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: transparent;
+    font-size: 30px;
+    color: #0A0A0A;
+}
+.form-bg input:placeholder-shown {
+    font-size: 30px;
+    color: #0A0A0A;
+}
+.sc-fm {
+    display: flex;
+    flex-direction: row;
+}
+.form-deco {
+    margin-top: 123px;
+    margin-left: 78px;
+}       
+.Section_C-1 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    perspective: 1000px;
+    margin-bottom: 50px;
+    margin-top: 300px;
+}
+
+/* Make Section_C-2 visually identical to Section_C-1 but independent (separate layout area) */
+.Section_C-2 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    perspective: 1000px;
+    margin-bottom: 50px;
+    margin-top: 300px;
+}
+
+/* Improved carousel layout and controls for both sections */
+.Section_C-1, .Section_C-2 {
+    position: relative;
+    width: 100%;
+    min-height: 640px; /* ensure items fit vertically */
+    perspective: 1200px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 80px;
+}
+
+.Section_C-1 .carousel-container,
+.Section_C-2 .carousel-container {
+    width: 760px; /* room for X translation */
+    height: 520px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    margin: 0 auto;
+}
+
+.Section_C-1 .Item_P,
+.Section_C-2 .Item_P {
+    position: absolute;
+    width: 342px;
+    height: 442px;
+    left: 50%;
+    top: 50%;
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+
+.Section_C-1 .markers-container,
+.Section_C-2 .markers-container {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.Section_C-1 .nav-btn,
+.Section_C-2 .nav-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.Section_C-1 .nav-btn.prev,
+.Section_C-2 .nav-btn.prev {
+    transform: translate(-320px, -50%);
+}
+
+.Section_C-1 .nav-btn.next,
+.Section_C-2 .nav-btn.next {
+    transform: translate(320px, -50%);
+}
+
+/* ensure marker images show correctly and center properly */
+.marker {
+    width: 38px;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.Item_P {
+    position: absolute;
+    width: 342px;
+    height: 442px;
+    background: url('../img/Card-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    left: 50%;
+    top: 50%;
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+.Item_P h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    color: #0A0A0A;
+}
+.Item_P a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0A0A0A;
+    text-align: center;
+}
